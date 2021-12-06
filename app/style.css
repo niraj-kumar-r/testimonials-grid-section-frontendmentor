@@ -3,3 +3,8 @@
 *::before{
     box-sizing: border-box;
 }
+
+body{
+    font-size: 0.8125rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
