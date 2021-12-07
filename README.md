@@ -52,7 +52,7 @@ Users should be able to:
 
 [See this for more info](https://stackoverflow.com/questions/40010597/how-do-i-apply-opacity-to-a-css-color-variable)
 
-```html
+```css
 
 body {
   --main-color: rgb(170, 68, 204);
