@@ -48,6 +48,28 @@ Users should be able to:
 
 - I gained a much better understanding of the basics of grid, and practically used it to build a responsive section.
 
+- I also learnt that as of now it is not possible to take a color in a custom property and then later use it with an alpha channel applied to it. Although we can use something like what has been done below, the custom property itself isn't recognised as a color, and so it won't bring up the extremely handy color picker in VS code.
+
+[See this for more info](https://stackoverflow.com/questions/40010597/how-do-i-apply-opacity-to-a-css-color-variable)
+
+```html
+
+body {
+  --main-color: rgb(170, 68, 204);
+  --main-color-rgb: 170,68,204;
+  --main-color-r: 170;
+  --main-color-g: 68;
+  --main-color-b: 204;
+}
+
+.button-test {
+  // Generated from the alpha function
+  color: rgba(var(--main-color-r), var(--main-color-g), var(--main-color-b), 0.5);
+  // OR (you wrote this yourself, see usage)
+  color: rgba(var(--main-color-rgb), 0.5);
+}
+```
+
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
