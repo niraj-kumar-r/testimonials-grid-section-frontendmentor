@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [See My Solution on FrontendMentor](https://www.frontendmentor.io/solutions/first-junior-level-webpage-by-a-newbie-9O5A4Ugfv)
 - Live Site URL: [My Live Site](https://niraj-testimonials-grid.netlify.app/)
 
 ## My process
