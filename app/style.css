@@ -46,7 +46,6 @@ body{
 }
 
 .child-card{
-    background-color: blue;
     padding: 2rem;
     border-radius: 0.5rem;
 }
@@ -99,6 +98,9 @@ p{
     background-repeat: no-repeat;
     background-position-x: calc(100% - 2rem);
     --font-color: var(--white);
-    position: relative;
-    z-index: 1;
+}
+
+.card-2{
+    background-color: var(--very-dark-grayish-blue);
+    --font-color: var(--white)
 }
