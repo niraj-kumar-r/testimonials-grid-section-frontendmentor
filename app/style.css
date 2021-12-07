@@ -134,7 +134,7 @@ p{
     --font-color: var(--very-dark-grayish-blue);
 }
 
-@media screen and (min-width: 62.5rem) {
+@media screen and (min-width: 61rem) {
 
     .main-card{
         width: 77.4%;
